@@ -1,0 +1,8 @@
+Get a list of tasks
+Add due dates to tasks
+Calendar view
+Add estimates time to finish tasks
+Make things easy to move around
+Day view
+Week view
+month view
