@@ -1,0 +1,29 @@
+<form action="/add_task" method="post" id="form">
+    <table class="form-table">
+        <tr> 
+            <th>Date and Time</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Estimated Completion Date</th>
+        </tr>
+
+        <tr valign="top">
+            <td id="date"><input type="datetime-local" name="date" id="date"></td>
+            <td id="name"><input type="text" name="name"></td>
+            <td id="description"><input type="text" name="description"></td>
+            <td id="estimated_time_to_finish"><input type="text" name="estimated_time_to_finish"></td>
+        </tr>
+
+    </table>
+    <button type="submit">Submit</button>
+</form>
+
+<div id="current_date"></p>
+    <script>
+        const d = new Date();
+        stringDate = d.toISOString().slice(0,16)
+        console.log(stringDate);
+        const dateElement = document.querySelector('input[type="datetime-local"]');
+        dateElement.value = stringDate;
+    </script>
+    
