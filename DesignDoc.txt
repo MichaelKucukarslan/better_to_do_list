@@ -1,3 +1,5 @@
+Add a task through the site
+
 Add due dates to tasks
 Add estimates time to finish tasks
 Add notes to tasks
